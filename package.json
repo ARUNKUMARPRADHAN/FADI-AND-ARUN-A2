@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
+  "scripts": {
+    "build": "handlebars src/templates -f dist/templates.js"
+}
+
+

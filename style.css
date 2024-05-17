@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow:auto;/* Hide scrollbars */
+  }
+  
+  #intro-video {
+    position: fixed;
+    background-image: -moz-linear-gradient(0def,rgba(42, 233, 17, 0.914),rgba(244, 183, 28, 0.944));
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index:-1;; /* Ensure the video stays in the background */
+  }
+ /* Navbar styling */
+nav {
+  
+  padding: 10px 20px; /* Padding around the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px; /* Spacing between navbar items */
+}
+
+nav ul li a {
+  color: #fff; /* Color of the navbar text */
+  text-decoration: none;
+}
+
+/* Logo styling */
+.logo img {
+  height: 50px; /* Adjust height of the logo as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+
+.brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.brand img{
+  height: 250px;
+  width: auto;
+  filter: grayscale(-9);
+}
+
+.button{
+  position:absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: max-content;
+  height:max-content;
+  border: 2px solid white ;
+  padding: 10px;
+  border-radius: 25px;
+
+}
+
+/* Footer styling */
+footer {
+  background-color: rgb(135, 128, 128); /* Background color of the footer */
+  padding: 20px 0; /* Padding around the footer */
+  min-height:fit-content; /* Set a minimum height for the footer */
+  overflow: auto; /* Enable scrolling if content exceeds the footer height */
+  margin-top: 40vh;
+  
+  
+  
+  
+  }
+
+footer .column{
+  float: left;
+  width: 29%;
+  padding: 20px;
+  height: 200px;
+
+}
+footer .row::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+@media screen and (max-width:600px) {
+ footer .column{
+    width: 100%;
+  }
+  
+}
+.contact-info {
+  font-size: 16px;
+  color: #000;
+}
+
+.contact-info i {
+  margin-right: 8px;
+  color: #007bff; 
+}
+
+.contact-info span {
+  vertical-align: middle;
+}
+  
+.social-icon {
+  margin: 0 10px;
+  color: rgba(1, 1, 1, 0.936); 
+  font-size: 24px; 
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #007bff; 
+}
+.contact-info {
+  font-size: 16px;
+  color: #000;
+}
+
+.contact-info i {
+  margin-right: 9px;
+  color: #007bff; 
+}
+
+.contact-info span {
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+ 
+  
