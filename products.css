@@ -128,7 +128,7 @@ width: auto; /* Maintain aspect ratio */
   }
   
     .card:hover {
-      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
   
   
