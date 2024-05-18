@@ -98,6 +98,7 @@ width: auto; /* Maintain aspect ratio */
     background-color: #f2f2f2;
     border: 1px solid #ccc;
     border-radius: 40px;
+    
   }
   
   .card-content {
@@ -123,7 +124,7 @@ width: auto; /* Maintain aspect ratio */
     height: 200px;
     object-fit:cover;
    border-radius: 5px;
-   transition: transform .2s; 
+   transition: transform .5s; 
   }
   
     .card:hover {
